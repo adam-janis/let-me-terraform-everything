@@ -1,5 +1,6 @@
 # Let me Terraform everything
 - practical demonstration for "Let me Terraform everything" presentation (http://bit.ly/let-me-terraform-everything)
+- leave feedback on the presentation http://bit.ly/let-me-feedback-everything
 
 ## Tasks
 1. prepare project variables
@@ -7,18 +8,20 @@
     - gcp_project
     - image_url
     - node_count
+    - node_type
 2. setup backend for remote state
 3. setup **Google provider**
 4. create **Google Container Cluster** (Kubernetes cluster)
-5. deploy **Kubernetes Pod**
-6. expose this Pod with **Kubernetes Service**
+5. setup **Kubernetes provider**
+6. deploy **Kubernetes Pod**
+7. expose this Pod with **Kubernetes Service**
     - output Service public IP
     - check whether its working, try to change image
-7. setup **CloudFlare provider**
-8. create `A` DNS record for your service
+8. setup **CloudFlare provider**
+9. create `A` DNS record for your service
     - output DNS **hostname**
     - check whether its working
-9. Reproduce whole setup with **Workspaces** and `.tfvars` files
+10. Reproduce whole setup with **Workspaces** and `.tfvars` files
 
 ## Resources
 - GCP
