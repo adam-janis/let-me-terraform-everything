@@ -3,15 +3,18 @@
 - leave feedback on the presentation http://bit.ly/let-me-feedback-everything
 
 ## My setup
-1. **Terraform** (required)
+1. **Terraform** _(required)_
     - https://www.terraform.io/intro/getting-started/install.html
-2. **Google SDK** (optional)
+2. **Google cloud account** _(required)_
+    - https://cloud.google.com/free _($300 free credit to get started with any GCP product)_
+3. **Google SDK** _(optional)_
     - Used as auth fallback for `google` Terraform provider
     - https://cloud.google.com/sdk/downloads + `gcloud auth login`
-3. **WebStorm IDE** + Terraform plugin (optional)
-4. **CloudFlare** account + `typek.sk` domain (optional)
-    - for DNS management (tasks 8,9)
-    - https://dash.cloudflare.com/
+4. **WebStorm IDE** + Terraform plugin _(optional)_
+5. **CloudFlare** account + `typek.sk` domain _(optional)_
+    - for DNS management _(tasks 8,9)_
+    - CloudFlare API token as ENV var `export TF_VAR_cf_token=xxxyyyxxx`
+    - https://dash.cloudflare.com
 
 ## Tasks
 1. prepare project variables
