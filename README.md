@@ -2,6 +2,17 @@
 - practical demonstration for "Let me Terraform everything" presentation (http://bit.ly/let-me-terraform-everything)
 - leave feedback on the presentation http://bit.ly/let-me-feedback-everything
 
+## My setup
+1. **Terraform** (required)
+    - https://www.terraform.io/intro/getting-started/install.html
+2. **Google SDK** (optional)
+    - Used as auth fallback for `google` Terraform provider
+    - https://cloud.google.com/sdk/downloads + `gcloud auth login`
+3. **WebStorm IDE** + Terraform plugin (optional)
+4. **CloudFlare** account + `typek.sk` domain (optional)
+    - for DNS management (tasks 8,9)
+    - https://dash.cloudflare.com/
+
 ## Tasks
 1. prepare project variables
     - name
@@ -21,7 +32,7 @@
 9. create `A` DNS record for your service
     - output DNS **hostname**
     - check whether its working
-10. Reproduce whole setup with **Workspaces** and `.tfvars` files
+10. reproduce whole setup with **Workspaces** and `.tfvars` files
 
 ## Resources
 - GCP
